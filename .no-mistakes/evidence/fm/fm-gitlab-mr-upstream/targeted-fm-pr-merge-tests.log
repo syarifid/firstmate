@@ -1,0 +1,5 @@
+ok - fm-pr-merge reads a plan-gated 403 on branch rules as no merge queue, not unreadable
+ok - away merge proceeds on a plan-gated 403 because that repository cannot have a merge queue
+ok - fm-pr-merge --allow-no-pipeline waives only a null GitLab head pipeline and keeps every other condition
+ok - fm-pr-merge --allow-no-pipeline is attended-only, takes no value, and applies only to GitLab
+ok - fm-pr-merge --allow-missing is single use, attended-only, and GitHub-only like --allow-red

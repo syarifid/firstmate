@@ -1,0 +1,27 @@
+=== TARGET 4fa2233 ===
+tasks-axi used: /opt/homebrew/bin/tasks-axi 0.2.6
+--- fm-teardown.sh rc=0 output:
+/private/var/folders/3s/7gx26dws7kv_580c734gwkf00000gn/T/fm-teardown-tests.fNb61Y/live-gitlab-real-tasks-axi/project: already current
+teardown task-x1 complete (window firstmate:fm-task-x1, worktree /private/var/folders/3s/7gx26dws7kv_580c734gwkf00000gn/T/fm-teardown-tests.fNb61Y/live-gitlab-real-tasks-axi/wt)
+Backlog: task-x1 is closed in /private/var/folders/3s/7gx26dws7kv_580c734gwkf00000gn/T/fm-teardown-tests.fNb61Y/live-gitlab-real-tasks-axi/data/backlog.md. Run bin/fm-tasks-axi.sh ready for dependency-cleared candidates, check date gates, and dispatch only work whose blockers are gone and date is due.
+--- backlog row state: done
+--- tasks-axi show task-x1 --full:
+task:
+  id: task-x1
+  title: teardown fixture task
+  state: done
+  blocked: no
+  blocked_by: none
+  held: no
+  hold_reason: "-"
+  hold_kind: "-"
+  hold_until: "-"
+  kind: ship
+  repo: "-"
+  priority: "-"
+  created: "-"
+  closed: 2026-10-18
+  deps: none
+  links: none
+  body: "GitLab merge request https://gitlab.example.com/group/sub/repo/-/merge_requests/12"
+--- pending close marker: absent

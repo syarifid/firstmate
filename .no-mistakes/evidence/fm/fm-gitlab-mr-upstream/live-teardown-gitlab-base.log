@@ -1,0 +1,25 @@
+=== BASE c7b7798 ===
+tasks-axi used: /opt/homebrew/bin/tasks-axi 0.2.6
+--- fm-teardown.sh rc=1 output:
+error: task-x1's endpoint and local copy are cleaned up, but its backlog item could not be closed atomically (error: "Task pr link must be a canonical pull request URL: https://github.com/<owner>/<repo>/pull/<n> (GitHub) or https://<host>/<owner>/<repo>/pulls/<n> (Forgejo)"); the pending close is recorded and the next session start retries it
+--- backlog row state: in_flight
+--- tasks-axi show task-x1 --full:
+task:
+  id: task-x1
+  title: teardown fixture task
+  state: in_flight
+  blocked: no
+  blocked_by: none
+  held: no
+  hold_reason: "-"
+  hold_kind: "-"
+  hold_until: "-"
+  kind: ship
+  repo: "-"
+  priority: "-"
+  created: 2026-10-18
+  closed: "-"
+  deps: none
+  links: none
+  body: ""
+--- pending close marker: present
