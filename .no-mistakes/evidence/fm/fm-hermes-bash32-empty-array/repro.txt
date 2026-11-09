@@ -1,0 +1,12 @@
+== HEAD repro (/bin/bash 3.2)
+rc=1
+== BASE repro
+/var/folders/3s/7gx26dws7kv_580c734gwkf00000gn/T/tmp.H46bv0Fwv9/lib.sh: line 6: words[@]: unbound variable
+rc=127
+== stock-bash test HEAD
+1..3
+ok - process identity treats empty args as not Hermes instead of aborting
+ok - profile home resolves the default profile without an empty argument
+ok - busy hook applies the event without the idle-only turn-ended flag
+FM_TEST_COMPLETE
+rc=0

@@ -1,0 +1,9 @@
+FM_TEST_BEGIN 2026-11-09T07:29:45Z tests/fm-hermes-harness.test.sh family=pure-contract-unit expected_gate_skip=none
+ok - process identity treats empty args as not Hermes instead of aborting
+ok - profile home resolves the default profile without an empty argument
+ok - busy hook applies the event without the idle-only turn-ended flag
+not ok - NUL argv identity lost when names/ps args are blind
+FM_TEST_END 2026-11-09T07:30:16Z tests/fm-hermes-harness.test.sh exit=1 duration_ms=30442 gate_skip=false
+FM_TEST_SUMMARY total=1 failed=1 skipped_gate=0 duration_ms=30547
+FM_TEST_SUMMARY_FAMILY family=pure-contract-unit count=1 duration_ms=30442 failed=1
+FM_TEST_SLOWEST rank=1 script=tests/fm-hermes-harness.test.sh duration_ms=30442

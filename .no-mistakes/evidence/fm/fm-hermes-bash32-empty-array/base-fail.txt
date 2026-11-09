@@ -1,0 +1,3 @@
+1..3
+not ok - empty args with an unreadable pid wrote output: /var/folders/3s/7gx26dws7kv_580c734gwkf00000gn/T/tmp.IBUAfUw1iU/bin/fm-hermes-process-lib.sh: line 6: words[@]: unbound variable
+rc=

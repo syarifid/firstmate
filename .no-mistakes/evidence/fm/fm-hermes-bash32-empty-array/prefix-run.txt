@@ -1,0 +1,4 @@
+1..3
+not ok - empty args with an unreadable pid wrote output: /var/folders/3s/7gx26dws7kv_580c734gwkf00000gn/T/rev.ajzts3/bin/fm-hermes-process-lib.sh: line 6: words[@]: unbound variable
+::error::fm-hermes-harness.test.sh exited 1 (planned 3, ok 0, not ok 1, complete 0)
+fm-test-tap-verify: fm-hermes-harness.test.sh exited 1 (planned 3, ok 0, not ok 1, complete 0)
